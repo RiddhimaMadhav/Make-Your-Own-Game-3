@@ -47,6 +47,8 @@ function draw() {
 
     score = 0;
 
+    scenery.visible = true;
+
     doctor.y = World.mouseY;
     
     if(keyDown("space")){
